@@ -19,7 +19,7 @@ The site’s main purpose is to attract visitors to the museum.
 
 Justification for any libraries used
 ====================================
-Font awsome icon library is a widely used library of icons. I have chosen to use this library to include commonly used icons that I expect most users are familiar with to improve user experience. 
+Font awsome icon library is a widely used library of icons. I have chosen to use this library to include commonly used icons that I expect most users are familiar with to improve the user experience. 
 
 
 URL of the original webpage
