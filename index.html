@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+   <title>James Bond 007 Museum</title>
+   <link rel='stylesheet' type='text/css' href='style.css' />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+   <link rel="icon" type="image/x-icon" href="images/007favicon.ico">
+   <script src='script.js'></script>
+</head>
+
+<body>
+
+<div id="overlay">
+  <button id="close-button">&times;</button>
+  <div id="overlay-content">
+    <h1 id="overlay-header"></h1>
+    <div id="overlay-gallery"></div>
+    <div id="overlay-gallery-buttons">
+    <button id="prev-button"><i class="fas fa-angle-double-left"></i></button>
+      <button id="next-button"><i class="fas fa-angle-double-right"></i></button>
+    </div>
+    <div id="overlay-text"></div>
+  </div>
+</div>
+
+<section id="container" class="container">
+<header class="hero">
+<img src="images/007MuseumLogo.jpg" alt="James Bond Museum logo">
+<article>
+  <h1>James Bond 007 Museum</h1>
+  <h2>Exhibition Nybro Sweden</h2>
+  <p>Welcome to the James Bond 007 Museum, a fantastic family-friendly experience located in Nybro Sweden.</p>
+  <button id="exhibitionButton">Learn more about our exhibitions <i class="fas fa-angle-double-right"></i></button>
+  </article>
+</header>
+
+<section class="navWrap">
+  <img src="images/007_logo.png" alt="007 logo" class="logo">
+  <input type="checkbox" id="navToggle" class="navToggle">
+  <label for="navToggle" class="navToggleLabel"><span></span></label>
+  <nav>
+    <ul>
+      <li><a href="#">About</a></li>      
+      <li><a href="https://www.007museum.com/to_do_and_see.htm" target="_blank">Exhibits</a></li>         
+      <li><a href="http://007museum.com/bondshop.htm" target="_blank">Store</a></li>
+      <li><a href="https://www.007museum.com/gunnar_schafer.htm" target="_blank">News</a></li>
+      <li><a href="https://www.nortic.se/ticket/organizer/1344" class="btn" target="_blank"><i class="fas fa-ticket-alt"></i>&nbsp;Book a visit</a></li>    
+    </ul>
+</nav>
+</section>
+
+<main>
+<!-- Exhibitions -->
+<section id="exhibitions" class="exhibitions" >
+<article>
+  <h1>Our exhibitions</h1>
+  <p>Here you will find everything about the movie hero James Bond. You can see original movie posters, Cars, Motorcycle, Black Jack, Roulette, Gold Stacks, Gondola, Aircraft Cessna 172, Aston Martin, Jaguar E-Type, Izabella Scorupco Goldeneye Bikini, Omega Seamaster. We have a movable James Bond 007 Exhibition. Contact us here <a href="mailto:jamesbondexhibition@telia.com/">jamesbondexhibition@telia.com</a> for more information about hosting a 007 Bond James exhibition in your country or city.</p>
+</article>
+<ul id="exhibitionsList" class="exhibitionsList"></ul>
+</section>
+
+<section class="cta cta1">
+<h1>Visit us</h1>
+<p>Nybro is a center for some of the spy world’s Agent 007 James Bond’s most spectacular operations. The world’s only James Bond museum has a huge collection of memorabilia, perfect for any fan of 007.</p>
+</section>
+
+<section class="info">  
+<h1>James Bond Exhibition 007 Museum Nybro, Sweden </h1>
+<ul class="highlights">
+  <li><img src="images/bond_hellberg_cessna.jpg" alt="James Bond Gunnar Schäfer with Writer Björn Hellberg and Cessna plane 172 Skyhawk from Bondmovie'Goldeneye' 1995 and 'Licence to Kill' 1989"></li>
+  <li><img src="images/aston_martin_borgholm.jpg" alt="Aston Martin JB 007 Borgholm 2018"></li>
+  <li><img src="images/james_bjorn_inger.jpg" alt="Cinema 20 people James Bond Gunnar Schäfer with Björn and Inger Hellberg"></li>
+  <li><img src="images/james-bond-books.jpg" alt="Ian Fleming's desk and library with red and black phones"></li>
+  <li><img src="images/martiniGlass-lazenby.jpg" alt="007 Dry Martini glass to George Lazenby James Bond from James Bonnd Gunnar Schäfer and the Hames Bond Museum"></li>
+</ul>
+<div id="contactDetail">
+<h2>Opening hours</h2>
+<p>Open mon-fri 11-15&nbsp; sat. 10-14</p>
+<p>JAMES BOND MUSEUM is indoors about 1000 sqm with cinema etc. We have open WIFI that everyone can use in the museum</p>
+<p>PARKING: large parking for cars, motorhomes, caravans, buses, mopeds, motorcycle, bicycle is directly connected to the Bond 007 museum. </p>
+<p>PETS Animals are not allowed in the 007 museum, but there are green spaces outside and parking spaces in the shade. </p>
+<p>TOILETS, THE DISABILITY TOILET is in the museum.</p>
+<p>Prams Small strollers can be used in the museum and there are also areas for them outside and in the entrance. WHEELCHAIR, Permobil and Rollators l can be used without problems.</p>
+</div>
+</section>
+
+<section class="cta cta2">
+<h1>Book Now</h1>
+<p>Experience the thrill and excitement of the world of 007! Book your visit to the James Bond museum today and immerse yourself in the iconic gadgets, cars, and style of the world’s most famous spy. Don’t miss out on this unforgettable adventure.</p>
+</section>
+<section class="tickets">
+  <h2>Plan and book your tickets</h2>
+  <div id=prices>
+  <p>Price:</p>
+<ul>
+  <li>Adult 195 - €20</li>
+  <li>Children (5-16) -  €15</li>
+  <li>Children under 5 years free.</li>
+</ul>
+<p>Prices are per person and include VAT.</p>
+
+<a href="https://www.nortic.se/ticket/organizer/1344" class="btn" target="_blank">
+  <div id="bookingButton">
+    <span>
+  <i class="fas fa-ticket-alt"></i> Book a visit
+</span>
+</div>
+</a>
+</div>
+
+  <img src="images/007karta-museum.jpg" alt="museum map showing where main ehibits are located"></img>
+</section>
+</main>
+
+<footer>  
+  <section class="social">
+    <h3>Connect with us!</h3>
+  <div class="socialIcons">
+    <a href="https://www.instagram.com/jamesbondmuseum/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="http://www.youtube.com/user/PEAB007" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.facebook.com/007museumnybro" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="http://twitter.com/#!/007museum" target="_blank"><i class="fab fa-twitter"></i></a>
+  </div>
+</section>
+<section class="contactInfo">
+  <article>
+    <h4>Contact Information</h4>
+    <ul>
+      <li>Phone: +46-481-12960</li>
+      <li>Email: <a href="mailto:007museum@telia.com">007museum@telia.com</a></li>
+      <li>Address: James Bond 007 Museum, Emmabodav. 20, 382 45 Nybro, Sweden</li>
+    </ul>
+    <p class="copy">007Museum &copy;2023</p>
+  </article>
+</section>
+</footer>
+</section>
+</body>
+</html>
